@@ -1,0 +1,12 @@
+{
+  "name": "react-hot-reload.macro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cometkim/react-hot-reload.macro.git",
+  "author": "Hyeseong Kim <cometkim.kr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-macros": "2.4.4",
+    "react-hot-loader": "4.6.3"
+  }
+}
