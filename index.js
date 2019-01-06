@@ -35,7 +35,7 @@ function macro({ babel, references, state }) {
                 const identifier = t.identifier(referenceNode.name)
                 const declaration = t.importDeclaration(
                     [t.importSpecifier(identifier, identifier)],
-                    t.stringLiteral('react-hot-loader'),
+                    t.stringLiteral('react-hot-loader/root'),
                 )
 
                 parentPath.insertAfter(declaration)
