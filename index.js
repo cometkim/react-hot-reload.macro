@@ -11,13 +11,13 @@ function macro({ babel, references, state }) {
 
     if (process.env.NODE_ENV === 'production') {
         state.file.path.traverse({
-            CallExpression({ node, parentPath }) {
-                if (node.callee.name !== referenceNode.name) {
+            CallExpression(path) {
+                if (path.node.callee.name !== referenceNode.name) {
                     return
                 }
 
-                parentPath.replaceWith(t.identifier(
-                    parentPath.node.arguments[0].name,
+                path.replaceWith(t.identifier(
+                    path.node.arguments[0].name,
                 ))
             },
         })
