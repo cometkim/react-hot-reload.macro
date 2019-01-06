@@ -1,6 +1,6 @@
 {
   "name": "react-hot-reload.macro",
-  "description": "Zero configuration fire hot reloading fire using Babel macro",
+  "description": "Zero configuration hot reloading using Babel macro",
   "repository": "https://github.com/cometkim/react-hot-reload.macro.git",
   "author": "Hyeseong Kim <cometkim.kr@gmail.com>",
   "keywords": [
@@ -8,7 +8,7 @@
     "react",
     "create-react-app"
   ],
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {

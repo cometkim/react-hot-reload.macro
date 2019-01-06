@@ -11,9 +11,7 @@ No eject, No configuration :tada::tada:
 
 ```bash
 yarn add react-hot-reload.macro
-
-or
-
+# or
 npm install --save react-hot-reload.macro
 ```
 
@@ -26,7 +24,9 @@ import React from 'react'
 ...
 
 -export default App
-+export default hot(module)(App)
++export default hot(App)
 ```
 
 That's it. Happy Hacking!
+
+If you want to see more detail: [API section of RHL](https://github.com/gaearon/react-hot-loader#api)
