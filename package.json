@@ -10,6 +10,7 @@
   ],
   "version": "2.0.1",
   "main": "index.js",
+  "types": "index.d.ts",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-macros": "2.4.4",
