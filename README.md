@@ -30,3 +30,8 @@ import React from 'react'
 That's it. Happy Hacking!
 
 If you want to see more detail: [API section of RHL](https://github.com/gaearon/react-hot-loader#api)
+
+## Changes
+
+- **v2.0.2**
+  - Add **TypeScript** definition
