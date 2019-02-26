@@ -5,7 +5,7 @@
 Zero configuration :fire:**Hot Module Replacement**:fire: using [Babel macro](https://github.com/kentcdodds/babel-plugin-macros)
 and [react-hot-loader](https://github.com/gaearon/react-hot-loader), mostly for Create React App (v2+) users
 
-No eject, No configuration :tada::tada:
+No eject :tada: No configuration :tada:
 
 ## Usage
 
@@ -29,9 +29,29 @@ import React from 'react'
 
 That's it. Happy Hacking!
 
-If you want to see more detail: [API section of RHL](https://github.com/gaearon/react-hot-loader#api)
+## React-:fire:-DOM
 
-## Changes
+> RHL will patch React, replace React-DOM by React-🔥-DOM and work with fiber directly
+
+Since RHL 4.5.0+, you would need to patch react-dom by `@hot-loader/react-dom`
+
+Currently only available option without ejecting is using Yarn's name resolution.
+
+```bash
+yarn add react-dom@npm:@hot-loader/react-dom
+```
+
+(if anyone know another workaround of it, please [let me know](https://github.com/cometkim/react-hot-reload.macro/issues/new))
+
+## Configure RHL
+
+You still can use RHL's APIs. Following the [`setConfig()`](https://github.com/gaearon/react-hot-loader#setconfigconfig) API of RHL.
+
+## Changelog
+
+- **v2.1.0**
+  - Update babel-plugin-macros to ^2.5.0
+  - Update react-hot-loader to ^4.7.0
 
 - **v2.0.2**
   - Add **TypeScript** definition
