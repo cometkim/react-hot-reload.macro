@@ -1,0 +1,7 @@
+// @flow
+import * as React from 'react'
+
+declare module 'react-hot-reload.macro' {
+    declare type HotLoadable = <T: React.Component<*>>(comp: T) => T
+    declare export default HotLoadable
+}
