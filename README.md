@@ -49,6 +49,11 @@ You still can use RHL's APIs. Following the [`setConfig()`](https://github.com/g
 
 ## Changelog
 
+- **v2.1.2**
+  - Add **Flow** type definition
+  - Update babel-plugin-macros to ^2.5.1
+  - Update react-hot-loader to ^4.8.2
+
 - **v2.1.0**
   - Update babel-plugin-macros to ^2.5.0
   - Update react-hot-loader to ^4.7.0
